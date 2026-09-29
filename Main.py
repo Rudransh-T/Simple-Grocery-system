@@ -44,9 +44,9 @@ for m in l1:
     i=i+1
     a= a + l3[i]
     if m.lower=='bread':
-        a= a + l3[1] * l2[i]
+        a= a + l3[0] * l2[i]
     elif m.lower=='butter':
-        a= a + l3[2] * l2[i]
+        a= a + l3[1] * l2[i]
     elif m.lower=='cheese':
         a= a + 80 * l2[i]
     elif m.lower=='gum':
@@ -54,7 +54,7 @@ for m in l1:
     elif m.lower=='chips':
         a= a + 10 * l2[i]
     elif m.lower=='chicken':
-        a= a + l3[3] * l2[i]
+        a= a + l3[2] * l2[i]
     elif m.lower=='icecream':
         a= a + 20 * l2[i]
     elif m.lower=='toothpaste':
